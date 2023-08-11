@@ -8,7 +8,7 @@ with some improvements from
 
 ## How to use it
 
-We currently have this set up in the `gis`, `collisions_replicator`, `wys`, `traffic` schemas. To see which tables are
+We currently have this set up in the `gis`, `collisions_replicator`, `wys`, `traffic`, and `miovision_api` schemas. To see which tables are
 being logged `SELECT * FROM gis.audited_tables_list` or change the `gis` schema to the relevant one. To implement in a
 new schema pop [`audit.sql`](audit.sql) in a query window and replace all `gis` with your schema.
 
